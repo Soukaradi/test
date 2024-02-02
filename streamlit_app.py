@@ -162,7 +162,7 @@ def plot_top_right():
         )
         
         SELECT * FROM aggregated_sales
-        """
+        """ """
     ).df()
 
     fig = px.bar(
