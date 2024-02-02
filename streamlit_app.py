@@ -7,4 +7,5 @@ st.markdown("_Prototype v0.4.1_")
 def load_data(path: str):
     df = pd.read_excel(path)
     return df
-df = load_data(uploaded_file)
+df = load_data("a.xlsx")
+st.write(df)
