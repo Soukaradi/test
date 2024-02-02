@@ -1,14 +1,14 @@
-"""import streamlit as st
+import streamlit as st
 st.title("Sales streamlit dashboard")
 
 def load_data(path: str):
     df = pd.read_excel(path)
     return df
 
-
+"""
 In an environment with streamlit, plotly and duckdb installed,
 Run with `streamlit run streamlit_app.py`
-"""
+
 import random
 import duckdb
 import pandas as pd
@@ -301,4 +301,4 @@ with bottom_left_column:
     plot_bottom_left()
 
 with bottom_right_column:
-    plot_bottom_right()
+    plot_bottom_right()"""
