@@ -135,7 +135,7 @@ def plot_gauge(
 
 def plot_top_right():
     sales_data = duckdb.sql(
-        f"""
+        f""" """
         WITH sales_data AS (
             UNPIVOT ( 
                 SELECT 
